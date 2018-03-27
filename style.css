@@ -1,0 +1,17 @@
+body {background-color: #EEE; margin: 0 auto; font-family: Arial;	}
+header {background-color: #3498db; height: 70px; text-align: center; line-height: 65px; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2), inset 0px -4px 0px -2px rgba(255,255,255,0.3);}
+header h1 {font-size: 18px; font-weight: bold; font-family: Arial; margin: 0; color: white;}
+header h1 sub {font-weight: normal; font-size: 11px;}
+content {position: absolute; left: 50%; top: 50%;}
+content .boxLogin {width: 400px; margin-left: -200px; margin-top: -145px;}	
+content .boxLogin .title {background-color: #3498db; width: 100%; height: 45px; border-radius: 5px 5px 0 0; text-align: center; line-height: 45px; text-transform: uppercase; color: white; font-size: 12px; font-weight: bold; font-family: Arial; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2), inset 0px 4px 0px -2px rgba(255,255,255,0.2); position: relative;}
+content .boxLogin .body {background-color: white; padding: 20px 20px 0 20px; box-shadow: inset 0 0 0 1px rgba(0,0,0,0.2); border-radius: 0 0 5px 5px; margin-top: -1px;}
+content input[type="text"], input[type="password"] {background: white; border-radius: 4px; border: none; box-shadow: 0 0 0 1px rgba(0,0,0,0.2), inset 0 2px 8px -3px rgba(0,0,0,0.15	); padding: 12px; width: calc(100% - 20px);	outline: none; margin: 10px 0 20px	 0; font-size: 12px; transition: all 0.2s;}
+content input[type="text"]:focus, input[type="password"]:focus {box-shadow: 0 0 0 1px #3498db; color: #3498db;}
+content input[type="submit"] {background: #3498db; border-radius: 4px; border: none; box-shadow: 0 0 0 1px #2980b9, inset 0px 3px 0px -2px rgba(255,255,255,0.2); padding: 12px; width: 100%;outline: none; margin: 0 0 20px	0; color: white; text-transform: uppercase; font-weight: bold; font-size: 12px; cursor: pointer;}
+content label {text-transform: uppercase; color: #333; font-size: 12px; font-weight: bold;}
+footer {bottom: 0; position: absolute;}
+@media (max-width: 991px) {
+	content {position: absolute; width:calc(100% - 40px); left: 0; top: 50%; padding: 20px;}
+	content .boxLogin {width: 100%; margin-left: 0; margin-top: -140px;}
+}
